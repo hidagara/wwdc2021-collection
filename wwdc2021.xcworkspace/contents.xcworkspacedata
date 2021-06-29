@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "container:"
+      name = "ios-app">
+      <FileRef
+         location = "group:wwdc2021-collection.xcodeproj">
+      </FileRef>
+   </Group>
    <FileRef
       location = "group:ARC In Swift Basics and Beyond">
    </FileRef>
@@ -21,17 +28,5 @@
    </FileRef>
    <FileRef
       location = "group:Whats new in SF Symbols">
-   </FileRef>
-   <FileRef
-      location = "group:wwdc2021-collection">
-   </FileRef>
-   <FileRef
-      location = "group:wwdc2021-collection.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:wwdc2021-collectionTests">
-   </FileRef>
-   <FileRef
-      location = "group:wwdc2021-collectionUITests">
    </FileRef>
 </Workspace>
