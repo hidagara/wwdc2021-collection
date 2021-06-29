@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:ARC In Swift Basics and Beyond">
+   </FileRef>
+   <FileRef
+      location = "group:Explore structured concurrency in Swift">
+   </FileRef>
+   <FileRef
+      location = "group:Meet async await in Swift">
+   </FileRef>
+   <FileRef
+      location = "group:Meet AsyncSequence">
+   </FileRef>
+   <FileRef
+      location = "group:sandbox.playground">
+   </FileRef>
+   <FileRef
+      location = "group:server.go">
+   </FileRef>
+   <FileRef
+      location = "group:Whats new in SF Symbols">
+   </FileRef>
+   <FileRef
+      location = "group:wwdc2021-collection">
+   </FileRef>
+   <FileRef
+      location = "group:wwdc2021-collection.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:wwdc2021-collectionTests">
+   </FileRef>
+   <FileRef
+      location = "group:wwdc2021-collectionUITests">
+   </FileRef>
+</Workspace>

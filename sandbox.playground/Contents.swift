@@ -1,8 +1,16 @@
 import UIKit
+import SwiftUI
+import PlaygroundSupport
 
-var greeting = "Hello, playground"
+let a = 1+1
 
 
-print(greeting)
 
-print("Hello")
+print(a)
+
+
+
+
+PlaygroundPage.current.setLiveView(
+   Label("Hello world", systemImage: "pencil")
+)

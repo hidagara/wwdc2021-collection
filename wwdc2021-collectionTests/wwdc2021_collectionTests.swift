@@ -9,6 +9,21 @@ import XCTest
 @testable import wwdc2021_collection
 
 class wwdc2021_collectionTests: XCTestCase {
+    
+    
+    class Traveler {
+        var name: String?
+        var destination: String?
+    }
+
+
+    func test() {
+        let traveler1 = Traveler()
+        traveler1.name = "Roman"
+        let traveler2 = traveler1
+        traveler2.destination = "Big Sur"
+        print("Done traveling")
+    }
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
