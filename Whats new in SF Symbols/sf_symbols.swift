@@ -13,7 +13,7 @@ import SwiftUI
 struct Example {
     func test() {
         Canvas() { context, size in
-            let metrics = gridMetrics(in: size)
+//            let metrics = gridMetrics(in: size)
         }
     }
     

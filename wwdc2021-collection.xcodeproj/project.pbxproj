@@ -15,8 +15,8 @@
 		DDA9F3092689CC49002DE5D3 /* wwdc2021_collection.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DDA9F3072689CC49002DE5D3 /* wwdc2021_collection.xcdatamodeld */; };
 		DDA9F3132689CC49002DE5D3 /* wwdc2021_collectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA9F3122689CC49002DE5D3 /* wwdc2021_collectionTests.swift */; };
 		DDA9F31D2689CC49002DE5D3 /* wwdc2021_collectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA9F31C2689CC49002DE5D3 /* wwdc2021_collectionUITests.swift */; };
-		DDA9F32C2689D5FD002DE5D3 /* example.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA9F32B2689D5FD002DE5D3 /* example.swift */; };
-		DDA9F331268A251B002DE5D3 /* example_.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA9F330268A251B002DE5D3 /* example_.swift */; };
+		DDA9F32C2689D5FD002DE5D3 /* async_await.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA9F32B2689D5FD002DE5D3 /* async_await.swift */; };
+		DDA9F331268A251B002DE5D3 /* sf_symbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA9F330268A251B002DE5D3 /* sf_symbols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +49,8 @@
 		DDA9F3182689CC49002DE5D3 /* wwdc2021-collectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wwdc2021-collectionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDA9F31C2689CC49002DE5D3 /* wwdc2021_collectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wwdc2021_collectionUITests.swift; sourceTree = "<group>"; };
 		DDA9F3292689CCFF002DE5D3 /* sandbox.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = sandbox.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		DDA9F32B2689D5FD002DE5D3 /* example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example.swift; sourceTree = "<group>"; };
-		DDA9F330268A251B002DE5D3 /* example_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example_.swift; sourceTree = "<group>"; };
+		DDA9F32B2689D5FD002DE5D3 /* async_await.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = async_await.swift; sourceTree = "<group>"; };
+		DDA9F330268A251B002DE5D3 /* sf_symbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sf_symbols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +81,7 @@
 		DDA9F2F02689CC47002DE5D3 = {
 			isa = PBXGroup;
 			children = (
+				DDB911E1268ABDD0006F6FA2 /* ARC In Swift Basics and Beyond */,
 				DDA9F32F268A2506002DE5D3 /* Whats new in SF Symbols */,
 				DDA9F32E2689DC9B002DE5D3 /* Explore structured concurrency in Swift */,
 				DDA9F32D2689DC8E002DE5D3 /* Meet AsyncSequence */,
@@ -143,7 +144,7 @@
 		DDA9F32A2689D5D9002DE5D3 /* Meet async await in Swift */ = {
 			isa = PBXGroup;
 			children = (
-				DDA9F32B2689D5FD002DE5D3 /* example.swift */,
+				DDA9F32B2689D5FD002DE5D3 /* async_await.swift */,
 			);
 			path = "Meet async await in Swift";
 			sourceTree = "<group>";
@@ -165,9 +166,16 @@
 		DDA9F32F268A2506002DE5D3 /* Whats new in SF Symbols */ = {
 			isa = PBXGroup;
 			children = (
-				DDA9F330268A251B002DE5D3 /* example_.swift */,
+				DDA9F330268A251B002DE5D3 /* sf_symbols.swift */,
 			);
 			path = "Whats new in SF Symbols";
+			sourceTree = "<group>";
+		};
+		DDB911E1268ABDD0006F6FA2 /* ARC In Swift Basics and Beyond */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "ARC In Swift Basics and Beyond";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,8 +308,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDA9F331268A251B002DE5D3 /* example_.swift in Sources */,
-				DDA9F32C2689D5FD002DE5D3 /* example.swift in Sources */,
+				DDA9F331268A251B002DE5D3 /* sf_symbols.swift in Sources */,
+				DDA9F32C2689D5FD002DE5D3 /* async_await.swift in Sources */,
 				DDA9F3062689CC49002DE5D3 /* Persistence.swift in Sources */,
 				DDA9F2FF2689CC47002DE5D3 /* ContentView.swift in Sources */,
 				DDA9F3092689CC49002DE5D3 /* wwdc2021_collection.xcdatamodeld in Sources */,
