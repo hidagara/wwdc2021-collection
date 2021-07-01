@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:sandbox.playground">
+   </FileRef>
+   <FileRef
       location = "group:ARC In Swift Basics and Beyond">
    </FileRef>
    <FileRef
@@ -12,9 +15,6 @@
    </FileRef>
    <FileRef
       location = "group:Meet AsyncSequence">
-   </FileRef>
-   <FileRef
-      location = "group:sandbox.playground">
    </FileRef>
    <FileRef
       location = "group:server.go">
